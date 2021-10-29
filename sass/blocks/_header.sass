@@ -9,6 +9,24 @@
   &__search
     margin-right: auto
     margin-left: 108px
+  &-bottom
+    background-color: $dark
+  &-menu
+    list-style-type: none
+    margin: 0
+    padding: 31px 0
+    display: flex // элементы становятся
+    align-items: center // по центру делает обьекты
+    justify-content: space-between // растягивает все элементы по ширине
+    color: $light
+    &__link
+      color: inherit // наследует с родительского обьекта
+      text-decoration: none // убирает пунктиры/точки слева
+      text-transform: uppercase //заглавные буквы
+      font-size: 14px // размер шрифта
+      line-height: 18px // высота строки
+.logo
+  width: 177px
 .search
   display: flex
   position: relative
